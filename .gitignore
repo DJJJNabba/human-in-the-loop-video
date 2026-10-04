@@ -1,0 +1,10 @@
+node_modules/
+.venv/
+out/
+__pycache__/
+# analysis intermediates (regenerate with the commands in README.md)
+analysis/stems/
+analysis/*.wav
+analysis/work/
+analysis/work_v2/
+.claude/

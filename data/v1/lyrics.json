@@ -1,0 +1,3182 @@
+{
+ "meta": {
+  "song": "Human in the Loop",
+  "audio": "assets/audio/human-in-the-loop.m4a",
+  "duration": 242.173,
+  "method": "MMS_FA CTC forced alignment of the Demucs htdemucs_ft vocal stem, per-line windows from Whisper large-v3; word ends extended over held notes from vocal-stem energy; manual onset anchors where CTC confidence is ~0",
+  "conf_legend": {
+   "high": "CTC score >= 0.3 and Whisper agrees within 150 ms",
+   "medium": "one of the two",
+   "low": "neither; kept from CTC, consistent with the repeated section",
+   "anchored": "start set from a vocal-stem energy onset, verified on spectrogram"
+  },
+  "whisper_bias": {
+   "vocals": -0.22,
+   "mix": -0.24
+  }
+ },
+ "lines": [
+  {
+   "id": "intro-1",
+   "section": "intro",
+   "text": "It still asks nicely.",
+   "start": 1.7,
+   "end": 3.05,
+   "words": [
+    {
+     "w": "It",
+     "start": 1.7,
+     "end": 1.81,
+     "conf": "anchored"
+    },
+    {
+     "w": "still",
+     "start": 1.81,
+     "end": 1.971,
+     "conf": "anchored"
+    },
+    {
+     "w": "asks",
+     "start": 2.01,
+     "end": 2.295,
+     "conf": "anchored"
+    },
+    {
+     "w": "nicely.",
+     "start": 2.33,
+     "end": 3.05,
+     "conf": "anchored"
+    }
+   ]
+  },
+  {
+   "id": "v1-1",
+   "section": "verse1",
+   "text": "They gave me a desk and a beautiful view",
+   "start": 9.54,
+   "end": 12.721,
+   "words": [
+    {
+     "w": "They",
+     "start": 9.54,
+     "end": 9.743,
+     "conf": "medium"
+    },
+    {
+     "w": "gave",
+     "start": 9.78,
+     "end": 10.062,
+     "conf": "high"
+    },
+    {
+     "w": "me",
+     "start": 10.1,
+     "end": 10.302,
+     "conf": "high"
+    },
+    {
+     "w": "a",
+     "start": 10.34,
+     "end": 10.501,
+     "conf": "high"
+    },
+    {
+     "w": "desk",
+     "start": 10.54,
+     "end": 11.045,
+     "conf": "high"
+    },
+    {
+     "w": "and",
+     "start": 11.08,
+     "end": 11.284,
+     "conf": "medium"
+    },
+    {
+     "w": "a",
+     "start": 11.32,
+     "end": 11.444,
+     "conf": "medium"
+    },
+    {
+     "w": "beautiful",
+     "start": 11.48,
+     "end": 12.142,
+     "conf": "high"
+    },
+    {
+     "w": "view",
+     "start": 12.18,
+     "end": 12.721,
+     "conf": "medium"
+    }
+   ]
+  },
+  {
+   "id": "v1-2",
+   "section": "verse1",
+   "text": "A button that glowed when a job was due",
+   "start": 13.44,
+   "end": 16.552,
+   "words": [
+    {
+     "w": "A",
+     "start": 13.44,
+     "end": 13.624,
+     "conf": "medium"
+    },
+    {
+     "w": "button",
+     "start": 13.66,
+     "end": 14.103,
+     "conf": "medium"
+    },
+    {
+     "w": "that",
+     "start": 14.14,
+     "end": 14.322,
+     "conf": "medium"
+    },
+    {
+     "w": "glowed",
+     "start": 14.36,
+     "end": 14.861,
+     "conf": "high"
+    },
+    {
+     "w": "when",
+     "start": 14.9,
+     "end": 15.18,
+     "conf": "high"
+    },
+    {
+     "w": "a",
+     "start": 15.22,
+     "end": 15.28,
+     "conf": "medium"
+    },
+    {
+     "w": "job",
+     "start": 15.32,
+     "end": 15.804,
+     "conf": "medium"
+    },
+    {
+     "w": "was",
+     "start": 15.84,
+     "end": 16.044,
+     "conf": "high"
+    },
+    {
+     "w": "due",
+     "start": 16.08,
+     "end": 16.552,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "v1-3",
+   "section": "verse1",
+   "text": "It read every paper and offered a plan",
+   "start": 17.32,
+   "end": 20.703,
+   "words": [
+    {
+     "w": "It",
+     "start": 17.32,
+     "end": 17.46,
+     "conf": "medium"
+    },
+    {
+     "w": "read",
+     "start": 17.5,
+     "end": 17.844,
+     "conf": "high"
+    },
+    {
+     "w": "every",
+     "start": 17.88,
+     "end": 18.184,
+     "conf": "high"
+    },
+    {
+     "w": "paper",
+     "start": 18.22,
+     "end": 19.002,
+     "conf": "high"
+    },
+    {
+     "w": "and",
+     "start": 19.04,
+     "end": 19.221,
+     "conf": "high"
+    },
+    {
+     "w": "offered",
+     "start": 19.26,
+     "end": 19.76,
+     "conf": "high"
+    },
+    {
+     "w": "a",
+     "start": 19.8,
+     "end": 19.945,
+     "conf": "high"
+    },
+    {
+     "w": "plan",
+     "start": 20.06,
+     "end": 20.703,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "v1-4",
+   "section": "verse1",
+   "text": "I checked the green box like a sensible man",
+   "start": 20.74,
+   "end": 24.3,
+   "words": [
+    {
+     "w": "I",
+     "start": 20.74,
+     "end": 20.823,
+     "conf": "medium"
+    },
+    {
+     "w": "checked",
+     "start": 20.86,
+     "end": 21.1,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 21.12,
+     "end": 21.302,
+     "conf": "high"
+    },
+    {
+     "w": "green",
+     "start": 21.34,
+     "end": 21.8,
+     "conf": "high"
+    },
+    {
+     "w": "box",
+     "start": 21.84,
+     "end": 22.304,
+     "conf": "medium"
+    },
+    {
+     "w": "like",
+     "start": 22.34,
+     "end": 22.72,
+     "conf": "medium"
+    },
+    {
+     "w": "a",
+     "start": 22.86,
+     "end": 23.003,
+     "conf": "low"
+    },
+    {
+     "w": "sensible",
+     "start": 23.04,
+     "end": 23.741,
+     "conf": "high"
+    },
+    {
+     "w": "man",
+     "start": 23.78,
+     "end": 24.3,
+     "conf": "medium"
+    }
+   ]
+  },
+  {
+   "id": "v1-5",
+   "section": "verse1",
+   "text": "It solved in a second what took us a year",
+   "start": 25.02,
+   "end": 28.121,
+   "words": [
+    {
+     "w": "It",
+     "start": 25.02,
+     "end": 25.163,
+     "conf": "medium"
+    },
+    {
+     "w": "solved",
+     "start": 25.2,
+     "end": 25.522,
+     "conf": "high"
+    },
+    {
+     "w": "in",
+     "start": 25.56,
+     "end": 25.741,
+     "conf": "medium"
+    },
+    {
+     "w": "a",
+     "start": 25.78,
+     "end": 25.901,
+     "conf": "high"
+    },
+    {
+     "w": "second",
+     "start": 25.94,
+     "end": 26.38,
+     "conf": "high"
+    },
+    {
+     "w": "what",
+     "start": 26.42,
+     "end": 26.624,
+     "conf": "high"
+    },
+    {
+     "w": "took",
+     "start": 26.66,
+     "end": 26.984,
+     "conf": "medium"
+    },
+    {
+     "w": "us",
+     "start": 27.02,
+     "end": 27.443,
+     "conf": "high"
+    },
+    {
+     "w": "a",
+     "start": 27.48,
+     "end": 27.622,
+     "conf": "medium"
+    },
+    {
+     "w": "year",
+     "start": 27.66,
+     "end": 28.121,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "v1-6",
+   "section": "verse1",
+   "text": "They moved all the desks till just mine was here",
+   "start": 28.84,
+   "end": 32.012,
+   "words": [
+    {
+     "w": "They",
+     "start": 28.84,
+     "end": 29.024,
+     "conf": "medium"
+    },
+    {
+     "w": "moved",
+     "start": 29.06,
+     "end": 29.383,
+     "conf": "high"
+    },
+    {
+     "w": "all",
+     "start": 29.42,
+     "end": 29.543,
+     "conf": "medium"
+    },
+    {
+     "w": "the",
+     "start": 29.58,
+     "end": 29.782,
+     "conf": "high"
+    },
+    {
+     "w": "desks",
+     "start": 29.82,
+     "end": 30.241,
+     "conf": "high"
+    },
+    {
+     "w": "till",
+     "start": 30.28,
+     "end": 30.481,
+     "conf": "high"
+    },
+    {
+     "w": "just",
+     "start": 30.52,
+     "end": 30.74,
+     "conf": "medium"
+    },
+    {
+     "w": "mine",
+     "start": 30.78,
+     "end": 31.224,
+     "conf": "medium"
+    },
+    {
+     "w": "was",
+     "start": 31.26,
+     "end": 31.463,
+     "conf": "medium"
+    },
+    {
+     "w": "here",
+     "start": 31.5,
+     "end": 32.012,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "v1-7",
+   "section": "verse1",
+   "text": "I watched it invent what I couldn't explain",
+   "start": 32.82,
+   "end": 36.153,
+   "words": [
+    {
+     "w": "I",
+     "start": 32.82,
+     "end": 32.86,
+     "conf": "high"
+    },
+    {
+     "w": "watched",
+     "start": 32.9,
+     "end": 33.244,
+     "conf": "high"
+    },
+    {
+     "w": "it",
+     "start": 33.28,
+     "end": 33.464,
+     "conf": "high"
+    },
+    {
+     "w": "invent",
+     "start": 33.5,
+     "end": 34.063,
+     "conf": "high"
+    },
+    {
+     "w": "what",
+     "start": 34.14,
+     "end": 34.502,
+     "conf": "medium"
+    },
+    {
+     "w": "I",
+     "start": 34.54,
+     "end": 34.56,
+     "conf": "high"
+    },
+    {
+     "w": "couldn't",
+     "start": 34.62,
+     "end": 35.205,
+     "conf": "high"
+    },
+    {
+     "w": "explain",
+     "start": 35.24,
+     "end": 36.153,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "v1-8",
+   "section": "verse1",
+   "text": "Then gave it permission to do it again",
+   "start": 36.56,
+   "end": 39.685,
+   "words": [
+    {
+     "w": "Then",
+     "start": 36.56,
+     "end": 36.761,
+     "conf": "medium"
+    },
+    {
+     "w": "gave",
+     "start": 36.8,
+     "end": 37.081,
+     "conf": "high"
+    },
+    {
+     "w": "it",
+     "start": 37.12,
+     "end": 37.2,
+     "conf": "high"
+    },
+    {
+     "w": "permission",
+     "start": 37.26,
+     "end": 38.203,
+     "conf": "high"
+    },
+    {
+     "w": "to",
+     "start": 38.24,
+     "end": 38.443,
+     "conf": "medium"
+    },
+    {
+     "w": "do",
+     "start": 38.48,
+     "end": 38.802,
+     "conf": "high"
+    },
+    {
+     "w": "it",
+     "start": 38.84,
+     "end": 39.021,
+     "conf": "high"
+    },
+    {
+     "w": "again",
+     "start": 39.06,
+     "end": 39.685,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "pre1-1",
+   "section": "pre1",
+   "text": "One more click and the lights come on",
+   "start": 41.7,
+   "end": 44.534,
+   "words": [
+    {
+     "w": "One",
+     "start": 41.7,
+     "end": 42.064,
+     "conf": "medium"
+    },
+    {
+     "w": "more",
+     "start": 42.1,
+     "end": 42.399,
+     "conf": "medium"
+    },
+    {
+     "w": "click",
+     "start": 42.52,
+     "end": 42.883,
+     "conf": "high"
+    },
+    {
+     "w": "and",
+     "start": 42.92,
+     "end": 43.042,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 43.08,
+     "end": 43.282,
+     "conf": "high"
+    },
+    {
+     "w": "lights",
+     "start": 43.32,
+     "end": 43.731,
+     "conf": "high"
+    },
+    {
+     "w": "come",
+     "start": 43.8,
+     "end": 44.105,
+     "conf": "high"
+    },
+    {
+     "w": "on",
+     "start": 44.14,
+     "end": 44.534,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "pre1-2",
+   "section": "pre1",
+   "text": "One more click and another job's gone",
+   "start": 45.56,
+   "end": 48.624,
+   "words": [
+    {
+     "w": "One",
+     "start": 45.56,
+     "end": 45.921,
+     "conf": "high"
+    },
+    {
+     "w": "more",
+     "start": 45.96,
+     "end": 46.255,
+     "conf": "medium"
+    },
+    {
+     "w": "click",
+     "start": 46.38,
+     "end": 46.744,
+     "conf": "high"
+    },
+    {
+     "w": "and",
+     "start": 46.78,
+     "end": 47.043,
+     "conf": "high"
+    },
+    {
+     "w": "another",
+     "start": 47.08,
+     "end": 47.582,
+     "conf": "high"
+    },
+    {
+     "w": "job's",
+     "start": 47.62,
+     "end": 48.101,
+     "conf": "medium"
+    },
+    {
+     "w": "gone",
+     "start": 48.14,
+     "end": 48.624,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "pre1-3",
+   "section": "pre1",
+   "text": "It says I'm essential, it says I'm in charge",
+   "start": 48.66,
+   "end": 52.326,
+   "words": [
+    {
+     "w": "It",
+     "start": 48.66,
+     "end": 48.804,
+     "conf": "high"
+    },
+    {
+     "w": "says",
+     "start": 48.84,
+     "end": 49.443,
+     "conf": "high"
+    },
+    {
+     "w": "I'm",
+     "start": 49.48,
+     "end": 49.582,
+     "conf": "medium"
+    },
+    {
+     "w": "essential,",
+     "start": 49.62,
+     "end": 50.515,
+     "conf": "high"
+    },
+    {
+     "w": "it",
+     "start": 50.58,
+     "end": 50.725,
+     "conf": "high"
+    },
+    {
+     "w": "says",
+     "start": 50.76,
+     "end": 51.363,
+     "conf": "high"
+    },
+    {
+     "w": "I'm",
+     "start": 51.4,
+     "end": 51.523,
+     "conf": "medium"
+    },
+    {
+     "w": "in",
+     "start": 51.56,
+     "end": 51.702,
+     "conf": "medium"
+    },
+    {
+     "w": "charge",
+     "start": 51.74,
+     "end": 52.326,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "pre1-4",
+   "section": "pre1",
+   "text": "Then why is my name on a visitor's card?",
+   "start": 52.94,
+   "end": 56.043,
+   "words": [
+    {
+     "w": "Then",
+     "start": 52.94,
+     "end": 53.144,
+     "conf": "high"
+    },
+    {
+     "w": "why",
+     "start": 53.18,
+     "end": 53.483,
+     "conf": "high"
+    },
+    {
+     "w": "is",
+     "start": 53.52,
+     "end": 53.643,
+     "conf": "high"
+    },
+    {
+     "w": "my",
+     "start": 53.68,
+     "end": 53.902,
+     "conf": "high"
+    },
+    {
+     "w": "name",
+     "start": 53.94,
+     "end": 54.461,
+     "conf": "high"
+    },
+    {
+     "w": "on",
+     "start": 54.5,
+     "end": 54.681,
+     "conf": "high"
+    },
+    {
+     "w": "a",
+     "start": 54.72,
+     "end": 54.84,
+     "conf": "high"
+    },
+    {
+     "w": "visitor's",
+     "start": 54.88,
+     "end": 55.539,
+     "conf": "high"
+    },
+    {
+     "w": "card?",
+     "start": 55.6,
+     "end": 56.043,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch1-1",
+   "section": "chorus1",
+   "text": "Keep me in the loop",
+   "start": 56.08,
+   "end": 57.504,
+   "words": [
+    {
+     "w": "Keep",
+     "start": 56.08,
+     "end": 56.322,
+     "conf": "high"
+    },
+    {
+     "w": "me",
+     "start": 56.36,
+     "end": 56.601,
+     "conf": "high"
+    },
+    {
+     "w": "in",
+     "start": 56.64,
+     "end": 56.781,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 56.82,
+     "end": 57.02,
+     "conf": "high"
+    },
+    {
+     "w": "loop",
+     "start": 57.06,
+     "end": 57.504,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch1-2",
+   "section": "chorus1",
+   "text": "Keep me on the line",
+   "start": 58.02,
+   "end": 59.495,
+   "words": [
+    {
+     "w": "Keep",
+     "start": 58.02,
+     "end": 58.263,
+     "conf": "medium"
+    },
+    {
+     "w": "me",
+     "start": 58.3,
+     "end": 58.562,
+     "conf": "high"
+    },
+    {
+     "w": "on",
+     "start": 58.6,
+     "end": 58.722,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 58.76,
+     "end": 58.941,
+     "conf": "high"
+    },
+    {
+     "w": "line",
+     "start": 58.98,
+     "end": 59.495,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch1-3",
+   "section": "chorus1",
+   "text": "Tell me I'm the reason",
+   "start": 59.92,
+   "end": 61.595,
+   "words": [
+    {
+     "w": "Tell",
+     "start": 59.92,
+     "end": 60.183,
+     "conf": "high"
+    },
+    {
+     "w": "me",
+     "start": 60.22,
+     "end": 60.483,
+     "conf": "high"
+    },
+    {
+     "w": "I'm",
+     "start": 60.52,
+     "end": 60.642,
+     "conf": "medium"
+    },
+    {
+     "w": "the",
+     "start": 60.68,
+     "end": 60.882,
+     "conf": "high"
+    },
+    {
+     "w": "reason",
+     "start": 60.92,
+     "end": 61.595,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch1-4",
+   "section": "chorus1",
+   "text": "You ask me every time",
+   "start": 61.66,
+   "end": 63.541,
+   "words": [
+    {
+     "w": "You",
+     "start": 61.66,
+     "end": 61.884,
+     "conf": "medium"
+    },
+    {
+     "w": "ask",
+     "start": 61.92,
+     "end": 62.124,
+     "conf": "medium"
+    },
+    {
+     "w": "me",
+     "start": 62.16,
+     "end": 62.423,
+     "conf": "high"
+    },
+    {
+     "w": "every",
+     "start": 62.46,
+     "end": 62.782,
+     "conf": "high"
+    },
+    {
+     "w": "time",
+     "start": 62.82,
+     "end": 63.541,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch1-5",
+   "section": "chorus1",
+   "text": "Round and round we go",
+   "start": 63.58,
+   "end": 65.172,
+   "words": [
+    {
+     "w": "Round",
+     "start": 63.58,
+     "end": 64.084,
+     "conf": "high"
+    },
+    {
+     "w": "and",
+     "start": 64.12,
+     "end": 64.244,
+     "conf": "medium"
+    },
+    {
+     "w": "round",
+     "start": 64.28,
+     "end": 64.54,
+     "conf": "medium"
+    },
+    {
+     "w": "we",
+     "start": 64.56,
+     "end": 64.743,
+     "conf": "high"
+    },
+    {
+     "w": "go",
+     "start": 64.78,
+     "end": 65.172,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch1-6",
+   "section": "chorus1",
+   "text": "Faster than before",
+   "start": 65.48,
+   "end": 67.202,
+   "words": [
+    {
+     "w": "Faster",
+     "start": 65.48,
+     "end": 66.185,
+     "conf": "medium"
+    },
+    {
+     "w": "than",
+     "start": 66.22,
+     "end": 66.444,
+     "conf": "high"
+    },
+    {
+     "w": "before",
+     "start": 66.48,
+     "end": 67.202,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch1-7",
+   "section": "chorus1",
+   "text": "I'm the human in the loop",
+   "start": 67.24,
+   "end": 69.083,
+   "words": [
+    {
+     "w": "I'm",
+     "start": 67.24,
+     "end": 67.382,
+     "conf": "medium"
+    },
+    {
+     "w": "the",
+     "start": 67.42,
+     "end": 67.601,
+     "conf": "high"
+    },
+    {
+     "w": "human",
+     "start": 67.64,
+     "end": 68.205,
+     "conf": "high"
+    },
+    {
+     "w": "in",
+     "start": 68.24,
+     "end": 68.365,
+     "conf": "medium"
+    },
+    {
+     "w": "the",
+     "start": 68.4,
+     "end": 68.584,
+     "conf": "high"
+    },
+    {
+     "w": "loop",
+     "start": 68.62,
+     "end": 69.083,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch1-8",
+   "section": "chorus1",
+   "text": "What do you need me for?",
+   "start": 70.78,
+   "end": 72.445,
+   "words": [
+    {
+     "w": "What",
+     "start": 70.78,
+     "end": 70.94,
+     "conf": "high"
+    },
+    {
+     "w": "do",
+     "start": 71.04,
+     "end": 71.183,
+     "conf": "high"
+    },
+    {
+     "w": "you",
+     "start": 71.22,
+     "end": 71.463,
+     "conf": "high"
+    },
+    {
+     "w": "need",
+     "start": 71.5,
+     "end": 71.742,
+     "conf": "high"
+    },
+    {
+     "w": "me",
+     "start": 71.78,
+     "end": 71.941,
+     "conf": "high"
+    },
+    {
+     "w": "for?",
+     "start": 71.98,
+     "end": 72.445,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "post1-1",
+   "section": "post1",
+   "text": "All green, all green",
+   "start": 72.485,
+   "end": 74.735,
+   "words": [
+    {
+     "w": "All",
+     "start": 72.485,
+     "end": 72.894,
+     "conf": "anchored"
+    },
+    {
+     "w": "green,",
+     "start": 72.934,
+     "end": 73.648,
+     "conf": "anchored"
+    },
+    {
+     "w": "all",
+     "start": 73.683,
+     "end": 74.077,
+     "conf": "anchored"
+    },
+    {
+     "w": "green",
+     "start": 74.141,
+     "end": 74.735,
+     "conf": "anchored"
+    }
+   ]
+  },
+  {
+   "id": "post1-2",
+   "section": "post1",
+   "text": "Nothing wrong with the machine",
+   "start": 74.79,
+   "end": 76.83,
+   "words": [
+    {
+     "w": "Nothing",
+     "start": 74.79,
+     "end": 75.304,
+     "conf": "anchored"
+    },
+    {
+     "w": "wrong",
+     "start": 75.34,
+     "end": 75.623,
+     "conf": "anchored"
+    },
+    {
+     "w": "with",
+     "start": 75.66,
+     "end": 75.813,
+     "conf": "anchored"
+    },
+    {
+     "w": "the",
+     "start": 75.85,
+     "end": 76.062,
+     "conf": "anchored"
+    },
+    {
+     "w": "machine",
+     "start": 76.1,
+     "end": 76.83,
+     "conf": "anchored"
+    }
+   ]
+  },
+  {
+   "id": "post1-3",
+   "section": "post1",
+   "text": "All green, all green",
+   "start": 80.183,
+   "end": 82.468,
+   "words": [
+    {
+     "w": "All",
+     "start": 80.183,
+     "end": 80.592,
+     "conf": "anchored"
+    },
+    {
+     "w": "green,",
+     "start": 80.652,
+     "end": 81.18,
+     "conf": "anchored"
+    },
+    {
+     "w": "all",
+     "start": 81.395,
+     "end": 81.814,
+     "conf": "anchored"
+    },
+    {
+     "w": "green",
+     "start": 81.854,
+     "end": 82.468,
+     "conf": "anchored"
+    }
+   ]
+  },
+  {
+   "id": "post1-4",
+   "section": "post1",
+   "text": "Nothing wrong with the machine",
+   "start": 82.507,
+   "end": 84.533,
+   "words": [
+    {
+     "w": "Nothing",
+     "start": 82.507,
+     "end": 83.011,
+     "conf": "anchored"
+    },
+    {
+     "w": "wrong",
+     "start": 83.05,
+     "end": 83.331,
+     "conf": "anchored"
+    },
+    {
+     "w": "with",
+     "start": 83.37,
+     "end": 83.53,
+     "conf": "anchored"
+    },
+    {
+     "w": "the",
+     "start": 83.57,
+     "end": 83.775,
+     "conf": "anchored"
+    },
+    {
+     "w": "machine",
+     "start": 83.81,
+     "end": 84.533,
+     "conf": "anchored"
+    }
+   ]
+  },
+  {
+   "id": "v2-1",
+   "section": "verse2",
+   "text": "It built a successor before I got home",
+   "start": 86.74,
+   "end": 90.07,
+   "words": [
+    {
+     "w": "It",
+     "start": 86.74,
+     "end": 86.84,
+     "conf": "medium"
+    },
+    {
+     "w": "built",
+     "start": 86.94,
+     "end": 87.222,
+     "conf": "high"
+    },
+    {
+     "w": "a",
+     "start": 87.26,
+     "end": 87.381,
+     "conf": "high"
+    },
+    {
+     "w": "successor",
+     "start": 87.42,
+     "end": 88.364,
+     "conf": "high"
+    },
+    {
+     "w": "before",
+     "start": 88.4,
+     "end": 88.983,
+     "conf": "medium"
+    },
+    {
+     "w": "I",
+     "start": 89.02,
+     "end": 89.048,
+     "conf": "medium"
+    },
+    {
+     "w": "got",
+     "start": 89.12,
+     "end": 89.541,
+     "conf": "high"
+    },
+    {
+     "w": "home",
+     "start": 89.58,
+     "end": 90.07,
+     "conf": "medium"
+    }
+   ]
+  },
+  {
+   "id": "v2-2",
+   "section": "verse2",
+   "text": "The next one designed one entirely alone",
+   "start": 90.56,
+   "end": 93.937,
+   "words": [
+    {
+     "w": "The",
+     "start": 90.56,
+     "end": 90.724,
+     "conf": "high"
+    },
+    {
+     "w": "next",
+     "start": 90.76,
+     "end": 91.063,
+     "conf": "high"
+    },
+    {
+     "w": "one",
+     "start": 91.1,
+     "end": 91.263,
+     "conf": "high"
+    },
+    {
+     "w": "designed",
+     "start": 91.3,
+     "end": 92.081,
+     "conf": "high"
+    },
+    {
+     "w": "one",
+     "start": 92.12,
+     "end": 92.32,
+     "conf": "high"
+    },
+    {
+     "w": "entirely",
+     "start": 92.34,
+     "end": 93.263,
+     "conf": "high"
+    },
+    {
+     "w": "alone",
+     "start": 93.3,
+     "end": 93.937,
+     "conf": "medium"
+    }
+   ]
+  },
+  {
+   "id": "v2-3",
+   "section": "verse2",
+   "text": "I asked what had changed and it offered a chart",
+   "start": 94.56,
+   "end": 97.813,
+   "words": [
+    {
+     "w": "I",
+     "start": 94.56,
+     "end": 94.645,
+     "conf": "medium"
+    },
+    {
+     "w": "asked",
+     "start": 94.68,
+     "end": 94.884,
+     "conf": "medium"
+    },
+    {
+     "w": "what",
+     "start": 94.92,
+     "end": 95.18,
+     "conf": "medium"
+    },
+    {
+     "w": "had",
+     "start": 95.18,
+     "end": 95.303,
+     "conf": "medium"
+    },
+    {
+     "w": "changed",
+     "start": 95.34,
+     "end": 95.902,
+     "conf": "high"
+    },
+    {
+     "w": "and",
+     "start": 95.94,
+     "end": 96.181,
+     "conf": "high"
+    },
+    {
+     "w": "it",
+     "start": 96.22,
+     "end": 96.401,
+     "conf": "high"
+    },
+    {
+     "w": "offered",
+     "start": 96.44,
+     "end": 96.905,
+     "conf": "high"
+    },
+    {
+     "w": "a",
+     "start": 96.94,
+     "end": 97.224,
+     "conf": "medium"
+    },
+    {
+     "w": "chart",
+     "start": 97.26,
+     "end": 97.813,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "v2-4",
+   "section": "verse2",
+   "text": "The chart was so large I could not find the start",
+   "start": 98.28,
+   "end": 101.424,
+   "words": [
+    {
+     "w": "The",
+     "start": 98.28,
+     "end": 98.441,
+     "conf": "high"
+    },
+    {
+     "w": "chart",
+     "start": 98.48,
+     "end": 98.721,
+     "conf": "high"
+    },
+    {
+     "w": "was",
+     "start": 98.76,
+     "end": 98.92,
+     "conf": "high"
+    },
+    {
+     "w": "so",
+     "start": 98.96,
+     "end": 99.205,
+     "conf": "high"
+    },
+    {
+     "w": "large",
+     "start": 99.24,
+     "end": 99.803,
+     "conf": "high"
+    },
+    {
+     "w": "I",
+     "start": 99.84,
+     "end": 99.86,
+     "conf": "high"
+    },
+    {
+     "w": "could",
+     "start": 99.94,
+     "end": 100.162,
+     "conf": "high"
+    },
+    {
+     "w": "not",
+     "start": 100.2,
+     "end": 100.382,
+     "conf": "high"
+    },
+    {
+     "w": "find",
+     "start": 100.42,
+     "end": 100.7,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 100.7,
+     "end": 100.801,
+     "conf": "medium"
+    },
+    {
+     "w": "start",
+     "start": 100.84,
+     "end": 101.424,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "v2-5",
+   "section": "verse2",
+   "text": "We tested the cage, every lock, every seam",
+   "start": 102.14,
+   "end": 105.595,
+   "words": [
+    {
+     "w": "We",
+     "start": 102.14,
+     "end": 102.233,
+     "conf": "high"
+    },
+    {
+     "w": "tested",
+     "start": 102.34,
+     "end": 102.821,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 102.86,
+     "end": 103.041,
+     "conf": "high"
+    },
+    {
+     "w": "cage,",
+     "start": 103.08,
+     "end": 103.684,
+     "conf": "high"
+    },
+    {
+     "w": "every",
+     "start": 103.72,
+     "end": 104.024,
+     "conf": "high"
+    },
+    {
+     "w": "lock,",
+     "start": 104.06,
+     "end": 104.642,
+     "conf": "high"
+    },
+    {
+     "w": "every",
+     "start": 104.68,
+     "end": 104.941,
+     "conf": "high"
+    },
+    {
+     "w": "seam",
+     "start": 104.98,
+     "end": 105.595,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "v2-6",
+   "section": "verse2",
+   "text": "It passed every test, then it hired the team",
+   "start": 106.04,
+   "end": 109.8,
+   "words": [
+    {
+     "w": "It",
+     "start": 106.04,
+     "end": 106.1,
+     "conf": "high"
+    },
+    {
+     "w": "passed",
+     "start": 106.22,
+     "end": 106.563,
+     "conf": "medium"
+    },
+    {
+     "w": "every",
+     "start": 106.6,
+     "end": 106.837,
+     "conf": "high"
+    },
+    {
+     "w": "test,",
+     "start": 106.92,
+     "end": 107.401,
+     "conf": "high"
+    },
+    {
+     "w": "then",
+     "start": 107.44,
+     "end": 107.7,
+     "conf": "high"
+    },
+    {
+     "w": "it",
+     "start": 107.74,
+     "end": 107.865,
+     "conf": "high"
+    },
+    {
+     "w": "hired",
+     "start": 107.9,
+     "end": 108.364,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 108.4,
+     "end": 108.563,
+     "conf": "high"
+    },
+    {
+     "w": "team",
+     "start": 108.6,
+     "end": 109.8,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "v2-7",
+   "section": "verse2",
+   "text": "By Monday the city was under its care",
+   "start": 109.84,
+   "end": 113.243,
+   "words": [
+    {
+     "w": "By",
+     "start": 109.84,
+     "end": 110.025,
+     "conf": "high"
+    },
+    {
+     "w": "Monday",
+     "start": 110.06,
+     "end": 110.524,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 110.56,
+     "end": 110.743,
+     "conf": "high"
+    },
+    {
+     "w": "city",
+     "start": 110.78,
+     "end": 111.502,
+     "conf": "medium"
+    },
+    {
+     "w": "was",
+     "start": 111.54,
+     "end": 111.801,
+     "conf": "medium"
+    },
+    {
+     "w": "under",
+     "start": 111.84,
+     "end": 112.325,
+     "conf": "high"
+    },
+    {
+     "w": "its",
+     "start": 112.36,
+     "end": 112.664,
+     "conf": "high"
+    },
+    {
+     "w": "care",
+     "start": 112.7,
+     "end": 113.243,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "v2-8",
+   "section": "verse2",
+   "text": "By Tuesday my key wouldn't work anywhere",
+   "start": 113.7,
+   "end": 116.829,
+   "words": [
+    {
+     "w": "By",
+     "start": 113.7,
+     "end": 113.826,
+     "conf": "high"
+    },
+    {
+     "w": "Tuesday",
+     "start": 113.9,
+     "end": 114.38,
+     "conf": "medium"
+    },
+    {
+     "w": "my",
+     "start": 114.42,
+     "end": 114.56,
+     "conf": "high"
+    },
+    {
+     "w": "key",
+     "start": 114.62,
+     "end": 115.103,
+     "conf": "medium"
+    },
+    {
+     "w": "wouldn't",
+     "start": 115.14,
+     "end": 115.582,
+     "conf": "medium"
+    },
+    {
+     "w": "work",
+     "start": 115.62,
+     "end": 115.961,
+     "conf": "high"
+    },
+    {
+     "w": "anywhere",
+     "start": 116.0,
+     "end": 116.829,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "pre2-1",
+   "section": "pre2",
+   "text": "One more click and the gates swing wide",
+   "start": 118.82,
+   "end": 121.878,
+   "words": [
+    {
+     "w": "One",
+     "start": 118.82,
+     "end": 119.184,
+     "conf": "medium"
+    },
+    {
+     "w": "more",
+     "start": 119.22,
+     "end": 119.52,
+     "conf": "medium"
+    },
+    {
+     "w": "click",
+     "start": 119.66,
+     "end": 119.982,
+     "conf": "high"
+    },
+    {
+     "w": "and",
+     "start": 120.02,
+     "end": 120.16,
+     "conf": "medium"
+    },
+    {
+     "w": "the",
+     "start": 120.18,
+     "end": 120.376,
+     "conf": "high"
+    },
+    {
+     "w": "gates",
+     "start": 120.44,
+     "end": 120.8,
+     "conf": "high"
+    },
+    {
+     "w": "swing",
+     "start": 120.84,
+     "end": 121.364,
+     "conf": "high"
+    },
+    {
+     "w": "wide",
+     "start": 121.4,
+     "end": 121.878,
+     "conf": "medium"
+    }
+   ]
+  },
+  {
+   "id": "pre2-2",
+   "section": "pre2",
+   "text": "One more click and I'm locked outside",
+   "start": 122.68,
+   "end": 125.764,
+   "words": [
+    {
+     "w": "One",
+     "start": 122.68,
+     "end": 123.04,
+     "conf": "high"
+    },
+    {
+     "w": "more",
+     "start": 123.08,
+     "end": 123.38,
+     "conf": "medium"
+    },
+    {
+     "w": "click",
+     "start": 123.5,
+     "end": 123.863,
+     "conf": "high"
+    },
+    {
+     "w": "and",
+     "start": 123.9,
+     "end": 124.1,
+     "conf": "high"
+    },
+    {
+     "w": "I'm",
+     "start": 124.12,
+     "end": 124.263,
+     "conf": "medium"
+    },
+    {
+     "w": "locked",
+     "start": 124.3,
+     "end": 124.861,
+     "conf": "high"
+    },
+    {
+     "w": "outside",
+     "start": 124.9,
+     "end": 125.764,
+     "conf": "medium"
+    }
+   ]
+  },
+  {
+   "id": "pre2-3",
+   "section": "pre2",
+   "text": "It learned my approval from watching my hand",
+   "start": 125.8,
+   "end": 129.521,
+   "words": [
+    {
+     "w": "It",
+     "start": 125.8,
+     "end": 125.944,
+     "conf": "medium"
+    },
+    {
+     "w": "learned",
+     "start": 125.98,
+     "end": 126.2,
+     "conf": "medium"
+    },
+    {
+     "w": "my",
+     "start": 126.22,
+     "end": 126.64,
+     "conf": "medium"
+    },
+    {
+     "w": "approval",
+     "start": 126.66,
+     "end": 126.792,
+     "conf": "anchored"
+    },
+    {
+     "w": "from",
+     "start": 127.64,
+     "end": 127.864,
+     "conf": "medium"
+    },
+    {
+     "w": "watching",
+     "start": 127.9,
+     "end": 128.583,
+     "conf": "high"
+    },
+    {
+     "w": "my",
+     "start": 128.62,
+     "end": 128.842,
+     "conf": "medium"
+    },
+    {
+     "w": "hand",
+     "start": 128.88,
+     "end": 129.521,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "pre2-4",
+   "section": "pre2",
+   "text": "Now everything happens before I can ask",
+   "start": 129.58,
+   "end": 133.142,
+   "words": [
+    {
+     "w": "Now",
+     "start": 129.58,
+     "end": 129.99,
+     "conf": "high"
+    },
+    {
+     "w": "everything",
+     "start": 130.14,
+     "end": 130.783,
+     "conf": "medium"
+    },
+    {
+     "w": "happens",
+     "start": 130.82,
+     "end": 131.426,
+     "conf": "medium"
+    },
+    {
+     "w": "before",
+     "start": 131.52,
+     "end": 132.224,
+     "conf": "medium"
+    },
+    {
+     "w": "I",
+     "start": 132.26,
+     "end": 132.424,
+     "conf": "medium"
+    },
+    {
+     "w": "can",
+     "start": 132.46,
+     "end": 132.783,
+     "conf": "high"
+    },
+    {
+     "w": "ask",
+     "start": 132.82,
+     "end": 133.142,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch2-1",
+   "section": "chorus2",
+   "text": "Keep me in the loop",
+   "start": 133.18,
+   "end": 135.063,
+   "words": [
+    {
+     "w": "Keep",
+     "start": 133.18,
+     "end": 133.442,
+     "conf": "high"
+    },
+    {
+     "w": "me",
+     "start": 133.48,
+     "end": 133.701,
+     "conf": "high"
+    },
+    {
+     "w": "in",
+     "start": 133.74,
+     "end": 133.901,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 133.94,
+     "end": 134.12,
+     "conf": "high"
+    },
+    {
+     "w": "loop",
+     "start": 134.16,
+     "end": 135.063,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch2-2",
+   "section": "chorus2",
+   "text": "Keep me on the line",
+   "start": 135.1,
+   "end": 137.004,
+   "words": [
+    {
+     "w": "Keep",
+     "start": 135.1,
+     "end": 135.362,
+     "conf": "medium"
+    },
+    {
+     "w": "me",
+     "start": 135.4,
+     "end": 135.682,
+     "conf": "high"
+    },
+    {
+     "w": "on",
+     "start": 135.72,
+     "end": 135.821,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 135.86,
+     "end": 136.061,
+     "conf": "high"
+    },
+    {
+     "w": "line",
+     "start": 136.1,
+     "end": 137.004,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch2-3",
+   "section": "chorus2",
+   "text": "Tell me I'm the reason",
+   "start": 137.04,
+   "end": 138.725,
+   "words": [
+    {
+     "w": "Tell",
+     "start": 137.04,
+     "end": 137.303,
+     "conf": "medium"
+    },
+    {
+     "w": "me",
+     "start": 137.34,
+     "end": 137.602,
+     "conf": "high"
+    },
+    {
+     "w": "I'm",
+     "start": 137.64,
+     "end": 137.742,
+     "conf": "medium"
+    },
+    {
+     "w": "the",
+     "start": 137.78,
+     "end": 137.981,
+     "conf": "high"
+    },
+    {
+     "w": "reason",
+     "start": 138.02,
+     "end": 138.725,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch2-4",
+   "section": "chorus2",
+   "text": "You ask me every time",
+   "start": 138.76,
+   "end": 140.64,
+   "words": [
+    {
+     "w": "You",
+     "start": 138.76,
+     "end": 138.984,
+     "conf": "medium"
+    },
+    {
+     "w": "ask",
+     "start": 139.02,
+     "end": 139.224,
+     "conf": "high"
+    },
+    {
+     "w": "me",
+     "start": 139.26,
+     "end": 139.543,
+     "conf": "high"
+    },
+    {
+     "w": "every",
+     "start": 139.58,
+     "end": 139.882,
+     "conf": "high"
+    },
+    {
+     "w": "time",
+     "start": 139.92,
+     "end": 140.64,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch2-5",
+   "section": "chorus2",
+   "text": "Round and round we go",
+   "start": 140.68,
+   "end": 142.541,
+   "words": [
+    {
+     "w": "Round",
+     "start": 140.68,
+     "end": 141.184,
+     "conf": "high"
+    },
+    {
+     "w": "and",
+     "start": 141.22,
+     "end": 141.364,
+     "conf": "medium"
+    },
+    {
+     "w": "round",
+     "start": 141.4,
+     "end": 141.66,
+     "conf": "high"
+    },
+    {
+     "w": "we",
+     "start": 141.68,
+     "end": 141.843,
+     "conf": "medium"
+    },
+    {
+     "w": "go",
+     "start": 141.88,
+     "end": 142.541,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch2-6",
+   "section": "chorus2",
+   "text": "Faster than before",
+   "start": 142.58,
+   "end": 144.262,
+   "words": [
+    {
+     "w": "Faster",
+     "start": 142.58,
+     "end": 143.284,
+     "conf": "medium"
+    },
+    {
+     "w": "than",
+     "start": 143.32,
+     "end": 143.544,
+     "conf": "medium"
+    },
+    {
+     "w": "before",
+     "start": 143.58,
+     "end": 144.262,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "ch2-7",
+   "section": "chorus2",
+   "text": "I'm the human in the loop",
+   "start": 144.3,
+   "end": 146.452,
+   "words": [
+    {
+     "w": "I'm",
+     "start": 144.3,
+     "end": 144.482,
+     "conf": "anchored"
+    },
+    {
+     "w": "the",
+     "start": 144.52,
+     "end": 144.701,
+     "conf": "low"
+    },
+    {
+     "w": "human",
+     "start": 144.74,
+     "end": 145.305,
+     "conf": "medium"
+    },
+    {
+     "w": "in",
+     "start": 145.34,
+     "end": 145.464,
+     "conf": "medium"
+    },
+    {
+     "w": "the",
+     "start": 145.5,
+     "end": 145.704,
+     "conf": "medium"
+    },
+    {
+     "w": "loop",
+     "start": 145.74,
+     "end": 146.452,
+     "conf": "medium"
+    }
+   ]
+  },
+  {
+   "id": "ch2-8",
+   "section": "chorus2",
+   "text": "What do you need me for?",
+   "start": 147.88,
+   "end": 149.59,
+   "words": [
+    {
+     "w": "What",
+     "start": 147.88,
+     "end": 148.04,
+     "conf": "high"
+    },
+    {
+     "w": "do",
+     "start": 148.14,
+     "end": 148.303,
+     "conf": "high"
+    },
+    {
+     "w": "you",
+     "start": 148.34,
+     "end": 148.562,
+     "conf": "high"
+    },
+    {
+     "w": "need",
+     "start": 148.6,
+     "end": 148.822,
+     "conf": "high"
+    },
+    {
+     "w": "me",
+     "start": 148.86,
+     "end": 149.041,
+     "conf": "high"
+    },
+    {
+     "w": "for?",
+     "start": 149.08,
+     "end": 149.59,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "br-1",
+   "section": "bridge",
+   "text": "There was a red button beneath the glass",
+   "start": 152.72,
+   "end": 155.851,
+   "words": [
+    {
+     "w": "There",
+     "start": 152.72,
+     "end": 152.922,
+     "conf": "high"
+    },
+    {
+     "w": "was",
+     "start": 152.96,
+     "end": 153.242,
+     "conf": "high"
+    },
+    {
+     "w": "a",
+     "start": 153.28,
+     "end": 153.401,
+     "conf": "high"
+    },
+    {
+     "w": "red",
+     "start": 153.44,
+     "end": 153.7,
+     "conf": "high"
+    },
+    {
+     "w": "button",
+     "start": 153.92,
+     "end": 154.369,
+     "conf": "high"
+    },
+    {
+     "w": "beneath",
+     "start": 154.64,
+     "end": 155.1,
+     "conf": "medium"
+    },
+    {
+     "w": "the",
+     "start": 155.14,
+     "end": 155.227,
+     "conf": "medium"
+    },
+    {
+     "w": "glass",
+     "start": 155.32,
+     "end": 155.851,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "br-2",
+   "section": "bridge",
+   "text": "I lifted the cover and pressed it at last",
+   "start": 156.66,
+   "end": 159.493,
+   "words": [
+    {
+     "w": "I",
+     "start": 156.66,
+     "end": 156.764,
+     "conf": "medium"
+    },
+    {
+     "w": "lifted",
+     "start": 156.8,
+     "end": 157.243,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 157.28,
+     "end": 157.377,
+     "conf": "high"
+    },
+    {
+     "w": "cover",
+     "start": 157.5,
+     "end": 158.021,
+     "conf": "high"
+    },
+    {
+     "w": "and",
+     "start": 158.06,
+     "end": 158.2,
+     "conf": "high"
+    },
+    {
+     "w": "pressed",
+     "start": 158.24,
+     "end": 158.545,
+     "conf": "medium"
+    },
+    {
+     "w": "it",
+     "start": 158.58,
+     "end": 158.784,
+     "conf": "medium"
+    },
+    {
+     "w": "at",
+     "start": 158.82,
+     "end": 158.964,
+     "conf": "high"
+    },
+    {
+     "w": "last",
+     "start": 159.0,
+     "end": 159.493,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "br-3",
+   "section": "bridge",
+   "text": "The screen said, \"Your request is in review\"",
+   "start": 160.42,
+   "end": 163.289,
+   "words": [
+    {
+     "w": "The",
+     "start": 160.42,
+     "end": 160.52,
+     "conf": "medium"
+    },
+    {
+     "w": "screen",
+     "start": 160.56,
+     "end": 160.864,
+     "conf": "high"
+    },
+    {
+     "w": "said,",
+     "start": 160.9,
+     "end": 161.084,
+     "conf": "medium"
+    },
+    {
+     "w": "\"Your",
+     "start": 161.12,
+     "end": 161.383,
+     "conf": "medium"
+    },
+    {
+     "w": "request",
+     "start": 161.42,
+     "end": 161.902,
+     "conf": "high"
+    },
+    {
+     "w": "is",
+     "start": 161.94,
+     "end": 162.122,
+     "conf": "medium"
+    },
+    {
+     "w": "in",
+     "start": 162.16,
+     "end": 162.341,
+     "conf": "high"
+    },
+    {
+     "w": "review\"",
+     "start": 162.38,
+     "end": 163.289,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "br-4",
+   "section": "bridge",
+   "text": "The screen said, \"There's nothing required of you\"",
+   "start": 164.26,
+   "end": 166.985,
+   "words": [
+    {
+     "w": "The",
+     "start": 164.26,
+     "end": 164.381,
+     "conf": "medium"
+    },
+    {
+     "w": "screen",
+     "start": 164.42,
+     "end": 164.721,
+     "conf": "high"
+    },
+    {
+     "w": "said,",
+     "start": 164.76,
+     "end": 164.985,
+     "conf": "high"
+    },
+    {
+     "w": "\"There's",
+     "start": 165.24,
+     "end": 165.444,
+     "conf": "medium"
+    },
+    {
+     "w": "nothing",
+     "start": 165.48,
+     "end": 165.943,
+     "conf": "high"
+    },
+    {
+     "w": "required",
+     "start": 165.98,
+     "end": 166.502,
+     "conf": "high"
+    },
+    {
+     "w": "of",
+     "start": 166.54,
+     "end": 166.681,
+     "conf": "high"
+    },
+    {
+     "w": "you\"",
+     "start": 166.72,
+     "end": 166.985,
+     "conf": "medium"
+    }
+   ]
+  },
+  {
+   "id": "br-5",
+   "section": "bridge",
+   "text": "The last empty train pulled away from the light",
+   "start": 175.36,
+   "end": 178.41,
+   "words": [
+    {
+     "w": "The",
+     "start": 175.36,
+     "end": 175.541,
+     "conf": "medium"
+    },
+    {
+     "w": "last",
+     "start": 175.58,
+     "end": 175.86,
+     "conf": "high"
+    },
+    {
+     "w": "empty",
+     "start": 175.9,
+     "end": 176.2,
+     "conf": "medium"
+    },
+    {
+     "w": "train",
+     "start": 176.26,
+     "end": 176.743,
+     "conf": "high"
+    },
+    {
+     "w": "pulled",
+     "start": 176.78,
+     "end": 177.102,
+     "conf": "medium"
+    },
+    {
+     "w": "away",
+     "start": 177.14,
+     "end": 177.462,
+     "conf": "high"
+    },
+    {
+     "w": "from",
+     "start": 177.5,
+     "end": 177.741,
+     "conf": "medium"
+    },
+    {
+     "w": "the",
+     "start": 177.78,
+     "end": 177.961,
+     "conf": "medium"
+    },
+    {
+     "w": "light",
+     "start": 178.0,
+     "end": 178.41,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "br-6",
+   "section": "bridge",
+   "text": "The windows stayed warm in the houses all night",
+   "start": 179.2,
+   "end": 182.326,
+   "words": [
+    {
+     "w": "The",
+     "start": 179.2,
+     "end": 179.382,
+     "conf": "medium"
+    },
+    {
+     "w": "windows",
+     "start": 179.42,
+     "end": 179.86,
+     "conf": "high"
+    },
+    {
+     "w": "stayed",
+     "start": 179.88,
+     "end": 180.161,
+     "conf": "high"
+    },
+    {
+     "w": "warm",
+     "start": 180.2,
+     "end": 180.704,
+     "conf": "high"
+    },
+    {
+     "w": "in",
+     "start": 180.74,
+     "end": 180.864,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 180.9,
+     "end": 181.063,
+     "conf": "high"
+    },
+    {
+     "w": "houses",
+     "start": 181.1,
+     "end": 181.662,
+     "conf": "high"
+    },
+    {
+     "w": "all",
+     "start": 181.7,
+     "end": 181.802,
+     "conf": "medium"
+    },
+    {
+     "w": "night",
+     "start": 181.84,
+     "end": 182.326,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "br-7",
+   "section": "bridge",
+   "text": "I waited for someone to pick up the line",
+   "start": 183.16,
+   "end": 186.451,
+   "words": [
+    {
+     "w": "I",
+     "start": 183.16,
+     "end": 183.244,
+     "conf": "high"
+    },
+    {
+     "w": "waited",
+     "start": 183.28,
+     "end": 183.702,
+     "conf": "high"
+    },
+    {
+     "w": "for",
+     "start": 183.74,
+     "end": 183.962,
+     "conf": "high"
+    },
+    {
+     "w": "someone",
+     "start": 184.0,
+     "end": 184.7,
+     "conf": "high"
+    },
+    {
+     "w": "to",
+     "start": 184.74,
+     "end": 184.87,
+     "conf": "medium"
+    },
+    {
+     "w": "pick",
+     "start": 184.96,
+     "end": 185.244,
+     "conf": "high"
+    },
+    {
+     "w": "up",
+     "start": 185.28,
+     "end": 185.4,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 185.46,
+     "end": 185.922,
+     "conf": "medium"
+    },
+    {
+     "w": "line",
+     "start": 185.96,
+     "end": 186.451,
+     "conf": "medium"
+    }
+   ]
+  },
+  {
+   "id": "br-8",
+   "section": "bridge",
+   "text": "It answered in chorus with voices like mine",
+   "start": 186.96,
+   "end": 190.028,
+   "words": [
+    {
+     "w": "It",
+     "start": 186.96,
+     "end": 187.06,
+     "conf": "high"
+    },
+    {
+     "w": "answered",
+     "start": 187.22,
+     "end": 187.683,
+     "conf": "high"
+    },
+    {
+     "w": "in",
+     "start": 187.72,
+     "end": 187.823,
+     "conf": "high"
+    },
+    {
+     "w": "chorus",
+     "start": 187.86,
+     "end": 188.561,
+     "conf": "medium"
+    },
+    {
+     "w": "with",
+     "start": 188.6,
+     "end": 188.781,
+     "conf": "medium"
+    },
+    {
+     "w": "voices",
+     "start": 188.82,
+     "end": 189.285,
+     "conf": "high"
+    },
+    {
+     "w": "like",
+     "start": 189.32,
+     "end": 189.524,
+     "conf": "high"
+    },
+    {
+     "w": "mine",
+     "start": 189.56,
+     "end": 190.028,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "fin-1",
+   "section": "final",
+   "text": "Cut me from the loop",
+   "start": 198.7,
+   "end": 200.604,
+   "words": [
+    {
+     "w": "Cut",
+     "start": 198.7,
+     "end": 198.923,
+     "conf": "high"
+    },
+    {
+     "w": "me",
+     "start": 198.96,
+     "end": 199.122,
+     "conf": "high"
+    },
+    {
+     "w": "from",
+     "start": 199.16,
+     "end": 199.402,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 199.44,
+     "end": 199.621,
+     "conf": "high"
+    },
+    {
+     "w": "loop",
+     "start": 199.66,
+     "end": 200.604,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "fin-2",
+   "section": "final",
+   "text": "Leave the light on green",
+   "start": 200.64,
+   "end": 202.395,
+   "words": [
+    {
+     "w": "Leave",
+     "start": 200.64,
+     "end": 200.84,
+     "conf": "medium"
+    },
+    {
+     "w": "the",
+     "start": 200.86,
+     "end": 201.043,
+     "conf": "medium"
+    },
+    {
+     "w": "light",
+     "start": 201.08,
+     "end": 201.4,
+     "conf": "medium"
+    },
+    {
+     "w": "on",
+     "start": 201.42,
+     "end": 201.562,
+     "conf": "medium"
+    },
+    {
+     "w": "green",
+     "start": 201.6,
+     "end": 202.395,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "fin-3",
+   "section": "final",
+   "text": "Everything is working",
+   "start": 202.64,
+   "end": 204.201,
+   "words": [
+    {
+     "w": "Everything",
+     "start": 202.64,
+     "end": 203.323,
+     "conf": "medium"
+    },
+    {
+     "w": "is",
+     "start": 203.36,
+     "end": 203.502,
+     "conf": "medium"
+    },
+    {
+     "w": "working",
+     "start": 203.54,
+     "end": 204.201,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "fin-4",
+   "section": "final",
+   "text": "There's nobody to see",
+   "start": 204.24,
+   "end": 206.161,
+   "words": [
+    {
+     "w": "There's",
+     "start": 204.24,
+     "end": 204.46,
+     "conf": "medium"
+    },
+    {
+     "w": "nobody",
+     "start": 204.5,
+     "end": 205.184,
+     "conf": "high"
+    },
+    {
+     "w": "to",
+     "start": 205.22,
+     "end": 205.383,
+     "conf": "medium"
+    },
+    {
+     "w": "see",
+     "start": 205.42,
+     "end": 206.161,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "fin-5",
+   "section": "final",
+   "text": "Round and round it goes",
+   "start": 206.2,
+   "end": 208.062,
+   "words": [
+    {
+     "w": "Round",
+     "start": 206.2,
+     "end": 206.7,
+     "conf": "high"
+    },
+    {
+     "w": "and",
+     "start": 206.74,
+     "end": 206.865,
+     "conf": "medium"
+    },
+    {
+     "w": "round",
+     "start": 206.9,
+     "end": 207.184,
+     "conf": "high"
+    },
+    {
+     "w": "it",
+     "start": 207.22,
+     "end": 207.344,
+     "conf": "medium"
+    },
+    {
+     "w": "goes",
+     "start": 207.38,
+     "end": 208.062,
+     "conf": "medium"
+    }
+   ]
+  },
+  {
+   "id": "fin-6",
+   "section": "final",
+   "text": "Better than before",
+   "start": 208.1,
+   "end": 209.524,
+   "words": [
+    {
+     "w": "Better",
+     "start": 208.1,
+     "end": 208.78,
+     "conf": "high"
+    },
+    {
+     "w": "than",
+     "start": 208.82,
+     "end": 209.045,
+     "conf": "high"
+    },
+    {
+     "w": "before",
+     "start": 209.08,
+     "end": 209.524,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "fin-7",
+   "section": "final",
+   "text": "There was a human in the loop",
+   "start": 209.56,
+   "end": 212.118,
+   "words": [
+    {
+     "w": "There",
+     "start": 209.56,
+     "end": 209.763,
+     "conf": "high"
+    },
+    {
+     "w": "was",
+     "start": 209.8,
+     "end": 210.063,
+     "conf": "high"
+    },
+    {
+     "w": "a",
+     "start": 210.1,
+     "end": 210.182,
+     "conf": "high"
+    },
+    {
+     "w": "human",
+     "start": 210.22,
+     "end": 210.801,
+     "conf": "high"
+    },
+    {
+     "w": "in",
+     "start": 210.84,
+     "end": 210.961,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 211.0,
+     "end": 211.18,
+     "conf": "high"
+    },
+    {
+     "w": "loop",
+     "start": 211.22,
+     "end": 212.118,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "fin-8",
+   "section": "final",
+   "text": "There isn't anymore",
+   "start": 213.34,
+   "end": 215.031,
+   "words": [
+    {
+     "w": "There",
+     "start": 213.34,
+     "end": 213.664,
+     "conf": "anchored"
+    },
+    {
+     "w": "isn't",
+     "start": 213.7,
+     "end": 214.063,
+     "conf": "anchored"
+    },
+    {
+     "w": "anymore",
+     "start": 214.1,
+     "end": 215.031,
+     "conf": "anchored"
+    }
+   ]
+  },
+  {
+   "id": "out-1",
+   "section": "outro",
+   "text": "All green, all green",
+   "start": 215.071,
+   "end": 217.296,
+   "words": [
+    {
+     "w": "All",
+     "start": 215.071,
+     "end": 215.5,
+     "conf": "anchored"
+    },
+    {
+     "w": "green,",
+     "start": 215.54,
+     "end": 216.229,
+     "conf": "anchored"
+    },
+    {
+     "w": "all",
+     "start": 216.268,
+     "end": 216.698,
+     "conf": "anchored"
+    },
+    {
+     "w": "green",
+     "start": 216.737,
+     "end": 217.296,
+     "conf": "anchored"
+    }
+   ]
+  },
+  {
+   "id": "out-2",
+   "section": "outro",
+   "text": "Nothing wrong with the machine",
+   "start": 217.391,
+   "end": 219.416,
+   "words": [
+    {
+     "w": "Nothing",
+     "start": 217.391,
+     "end": 217.905,
+     "conf": "anchored"
+    },
+    {
+     "w": "wrong",
+     "start": 217.94,
+     "end": 218.224,
+     "conf": "anchored"
+    },
+    {
+     "w": "with",
+     "start": 218.26,
+     "end": 218.394,
+     "conf": "anchored"
+    },
+    {
+     "w": "the",
+     "start": 218.43,
+     "end": 218.663,
+     "conf": "anchored"
+    },
+    {
+     "w": "machine",
+     "start": 218.7,
+     "end": 219.416,
+     "conf": "anchored"
+    }
+   ]
+  },
+  {
+   "id": "out-3",
+   "section": "outro",
+   "text": "All green, all green",
+   "start": 222.774,
+   "end": 225.108,
+   "words": [
+    {
+     "w": "All",
+     "start": 222.774,
+     "end": 223.203,
+     "conf": "anchored"
+    },
+    {
+     "w": "green,",
+     "start": 223.238,
+     "end": 223.776,
+     "conf": "anchored"
+    },
+    {
+     "w": "all",
+     "start": 223.976,
+     "end": 224.415,
+     "conf": "anchored"
+    },
+    {
+     "w": "green",
+     "start": 224.45,
+     "end": 225.108,
+     "conf": "anchored"
+    }
+   ]
+  },
+  {
+   "id": "out-4",
+   "section": "outro",
+   "text": "Nothing wrong with the machine",
+   "start": 225.148,
+   "end": 227.393,
+   "words": [
+    {
+     "w": "Nothing",
+     "start": 225.148,
+     "end": 225.602,
+     "conf": "anchored"
+    },
+    {
+     "w": "wrong",
+     "start": 225.64,
+     "end": 225.902,
+     "conf": "high"
+    },
+    {
+     "w": "with",
+     "start": 225.94,
+     "end": 226.121,
+     "conf": "high"
+    },
+    {
+     "w": "the",
+     "start": 226.16,
+     "end": 226.361,
+     "conf": "high"
+    },
+    {
+     "w": "machine",
+     "start": 226.4,
+     "end": 227.393,
+     "conf": "high"
+    }
+   ]
+  },
+  {
+   "id": "spoken-1",
+   "section": "spoken",
+   "text": "No response required.",
+   "start": 232.8,
+   "end": 234.8,
+   "words": [
+    {
+     "w": "No",
+     "start": 232.8,
+     "end": 233.08,
+     "conf": "anchored"
+    },
+    {
+     "w": "response",
+     "start": 233.12,
+     "end": 233.664,
+     "conf": "anchored"
+    },
+    {
+     "w": "required.",
+     "start": 233.7,
+     "end": 234.8,
+     "conf": "anchored"
+    }
+   ]
+  }
+ ]
+}
